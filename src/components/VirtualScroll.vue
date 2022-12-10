@@ -6,8 +6,8 @@
 <script>
 import ItemSkeleton from './ItemSkeleton'
 
-const GRID_ITEM_HEIGHT = 200 + 10
-const GRID_ITEM_WIDTH = 250 + 10
+const GRID_ITEM_HEIGHT = 250 + 10
+const GRID_ITEM_WIDTH = 300 + 10
 const LIST_ITEM_HEIGHT = 45 + 1
 
 export default {
