@@ -267,7 +267,7 @@ export default {
 			try {
 				const response = await axios.get(this.imageUrl, { responseType: 'blob' })
 				const url = URL.createObjectURL(response.data)
-				this.backgroundImage = `linear-gradient(0deg, var(--color-main-background) 25%, rgba(0, 212, 255, 0) 50%), url('${url}')`
+				this.backgroundImage = `linear-gradient(0deg, var(--color-main-background) 35%, rgba(0, 212, 255, 0) 0%), url('${url}')`
 			} catch (e) {
 				if (this.colorMainBackground === '#ffffff') {
 					this.backgroundImage = 'var(--icon-link-000) no-repeat center 25% / 50% !important'
@@ -300,7 +300,6 @@ export default {
 .bookmark__title > h3 {
 	text-overflow: ellipsis;
 	overflow: hidden;
-	white-space: nowrap;
 }
 
 .bookmark__title > h3 {
