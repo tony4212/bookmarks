@@ -227,11 +227,10 @@ export default {
 }
 
 .item--gridview {
-	width: 250px;
-	height: 200px;
+	width: 300px;
+	height: 250px;
 	background: var(--color-main-background);
-	border: 1px solid var(--color-border);
-	box-shadow: #efefef7d 0px 0 13px 0px inset;
+	border: 4px solid var(--color-border);
 	border-radius: var(--border-radius-large);
 }
 
